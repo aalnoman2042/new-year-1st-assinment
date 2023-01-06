@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family: 'segoe Ui', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.banner{
+    background-image: url("./images/banner/banner2.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.banner-text{
+    text-align: right;
+    padding-top: 180px;
+    margin-right: 150px;
+ 
+}
+.banner-heading{
+    margin-bottom: 10px;
+    font-size: 80px;
+}
+.banner-des{
+    margin-bottom: 20px;
+    color: #5D5D5D;
+    font-size: 20px;
+}
+.btn-header{
+    background-color:#F15B22 ;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+/* failure section */
+.failure{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 150px; 
+}
+.failure-text{
+    margin-top: 180px;
+}
+.failure-text ul li{
+    list-style: none;
+    list-style-type: none;
+}
+.failure-text h1{
+    margin-bottom: 30px;
+    font-weight: 700px;
+    font-size: 40px;
+}
+.failure-text p{
+    margin-bottom: 20px;
+}
+.check-mark{
+    height: 20px;
+    width: 20px;
+}
