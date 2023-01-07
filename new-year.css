@@ -1,97 +1,167 @@
-*{
-    margin: 0;
-    font-family: 'segoe Ui', sans-serif;
-font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  font-family: "segoe Ui", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.banner{
-    background-image: url("./images/banner/banner2.png");
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+                                                            /* header section */
+.banner {
+  background-image: url("./images/banner/banner2.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.banner-text{
-    text-align: right;
-    padding-top: 180px;
-    margin-right: 150px;
- 
+.banner-text {
+  text-align: right;
+  padding-top: 180px;
+  margin-right: 150px;
 }
-.banner-heading{
-    margin-bottom: 10px;
-    font-size: 80px;
+.banner-heading {
+  margin-bottom: 10px;
+  font-size: 80px;
 }
-.banner-des{
-    margin-bottom: 20px;
-    color: #5D5D5D;
-    font-size: 20px;
+.banner-des {
+  margin-bottom: 20px;
+  color: #5d5d5d;
+  font-size: 20px;
 }
-.btn-header{
-    background-color:#F15B22 ;
-    padding: 15px;
-    color: white;
-    font-weight: 600;
-    border: none;
-    border-radius: 5px;
+.btn-header {
+  background-color: #f15b22;
+  padding: 15px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
 }
-/* failure section */
-.failure{
-    display: flex;
-    margin: 0 auto;
-    max-width: 1000px;
-    margin-top: 150px; 
+                                                            /* failure section */
+.failure {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 150px;
 }
-.failure-text{
-    margin-top: 180px;
+.failure-text {
+  margin-top: 180px;
 }
-.failure-text ul li{
-    list-style: none;
-    list-style-type: none;
+.failure-text ul li {
+  list-style: none;
+  list-style-type: none;
 }
-.failure-text h1{
-    margin-bottom: 30px;
-    font-weight: 700px;
-    font-size: 40px;
+.failure-text h1 {
+  margin-bottom: 30px;
+  font-weight: 700px;
+  font-size: 40px;
 }
-.failure-text p{
-    margin-bottom: 20px;
+.failure-text p {
+  margin-bottom: 20px;
 }
-.check-mark{
-    height: 20px;
-    width: 20px;
+.check-mark {
+  height: 20px;
+  width: 20px;
 }
-/* my plan section */
-.my-plans{
- display: flex;
- margin: 0 auto;
- max-width: 900px;
+                                                        /* my plan section */
+.my-plans {
+  display: flex;
+  margin: 0 auto;
+  max-width: 900px;
 
- margin-top: 100px;
- margin-bottom: 50px;
- justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: space-between;
 }
-.web{
-    margin-left: 62px;
+.web {
+  margin-left: 62px;
 }
-.js{
-    margin-left: 24px;
+.js {
+  margin-left: 24px;
 }
-.smoke{
-    margin-left: 37px;
+.smoke {
+  margin-left: 37px;
 }
-.plan-heading{
-    text-align: center;
-    font-size: 50px;
-    margin-top: 50px;
-
+.plan-heading {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
 }
 .my-plans div h1 {
-    margin-top:20px ;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 10px;
-
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10px;
 }
-.my-plans div p{
-    text-align: center;
+.my-plans div p {
+  text-align: center;
+}
+                                                            /* mindset section */
+.btn-primary {
+  color: #f15b22;
+  background-color: white;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.mindset {
+  background-size: cover;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 350px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(252, 91, 10, 0.654),
+      rgba(241, 97, 35, 0.083)
+    ),
+    url("./images/watch.png");
+}
+
+.mindset-heading {
+  color: white;
+  font-weight: 700px;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.mindset-text {
+  margin-top: 120px;
+  margin-left: 80px;
+  padding-top: 60px;
+}
+                                                        /* future section */
+.footer {
+  background-color: black;
+  height: 500px;
+  display: flex;
+  gap: 300px;
+}
+.future {
+  padding-top: 100px;
+  margin-left: 300px;
+}
+.future-heading {
+  color: white;
+  font-weight: 500px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.future-text {
+  color: white;
+}
+.social-icon {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+#input-email {
+  background-color: black;
+  border: 1px solid white;
+  height: 40px;
+  width: 300px;
+  border-radius: 4px;
+}
+.input-form {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
